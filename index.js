@@ -41,7 +41,7 @@ bot.start(async(ctx)=>{
             reply_markup:{
                 inline_keyboard:[
                     [{text:'🔎 Search 🔎',switch_inline_query:''},{text:'🔗 Link 🔗',callback_data:'POP'}],
-                    [{text: '📢 Updates 📢', url: 't.me/DevelopedBots'}]
+                    [{text: '📢 Updates 📢', url: 't.me/NEW_RELEASED_M0VIEZ'}]
                 ]
             }
         })
@@ -77,7 +77,7 @@ bot.command('/help',(ctx)=>{
         parse_mode:'HTML',
         reply_markup:{
             inline_keyboard:[
-                [{text: '💬 Support 💬',url:'t.me/DevelopedBotz'}]
+                [{text: '💬 Developer 💬',url:'t.me/xo_code'}]
             ]
         }    
     })
